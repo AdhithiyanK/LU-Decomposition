@@ -16,8 +16,7 @@ To write a program to find the LU Decomposition of a matrix.
 6.Print Array X as the solution
 ## Program:
 (i) To find the L and U matrix
-```
-/*
+```python
 Program to find the L and U matrix.
 Developed by: adhithiyan.k
 RegisterNumber: 22001999
@@ -27,11 +26,9 @@ A=np.array(eval(input()))
 P,L,U=lu(A)
 print(L)
 print(U)
-*/
 ```
 (ii) To find the LU Decomposition of a matrix
-```
-/*
+```python
 Program to find the LU Decomposition of a matrix.
 Developed by: adhithiyan.k
 RegisterNumber: 22001999
@@ -42,7 +39,6 @@ b=np.array(eval(input()))
 lu,piv=lu_factor(A)
 x=lu_solve((lu,piv),b)
 print(x)
-*/
 ```
 ## Output:
 ![Screenshot_20230122_113915](https://user-images.githubusercontent.com/121029258/213925463-f5f182c4-f044-4230-96f3-62bef4b2c3d6.png)
